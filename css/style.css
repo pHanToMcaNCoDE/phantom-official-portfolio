@@ -185,6 +185,10 @@ nav .max-width .links li a:hover::after{
     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
+
+/***************************************************** 
+# Animations 
+*****************************************************/
 @keyframes type{
     from{
         width: 0%;
