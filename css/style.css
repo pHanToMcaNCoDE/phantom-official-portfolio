@@ -133,7 +133,14 @@ nav .max-width .menu div{
 nav .max-width .menu:hover div{
     width: 40px;
 }
-
+nav .max-width .links .x{
+    display: block;
+    margin-left: 51%;
+}
+nav .max-width .links .x i{
+    color: var(--purple);
+    font-size: 20px;
+}
 
 
 
