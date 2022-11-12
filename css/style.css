@@ -108,6 +108,34 @@ nav .max-width .links li a::after{
 nav .max-width .links li a:hover::after{
     width: 100%;
 }
+nav .max-width .menu{
+    display: none;
+    width: 40px;
+}
+nav .max-width .menu div{
+    content: '';
+    background: var(--purple);
+    margin: 5px 0;
+    height: 1px;
+    border-radius: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.one{
+    width: 30px;
+}
+.two{
+    width: 20px;
+}
+.three{
+    width: 10px;
+}
+nav .max-width .menu:hover div{
+    width: 40px;
+}
+
+
+
 
 /************************************************************************** 
 # Hero Section
@@ -186,6 +214,18 @@ nav .max-width .links li a:hover::after{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /***************************************************** 
 # Animations 
 ******************************************************/
@@ -204,4 +244,18 @@ nav .max-width .links li a:hover::after{
     to{
         border-right-color: transparent;
     }
+}
+
+
+
+
+
+
+
+/******************************************************************** 
+# Responsive Design 
+**********************************************************************/
+
+@media only screen and (max-width: 400px){
+
 }
