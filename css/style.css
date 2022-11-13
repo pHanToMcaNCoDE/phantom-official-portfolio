@@ -274,16 +274,42 @@ nav .max-width .links .x i{
     width: 50%;
     display: flex;
 }
-.about .max-width .content .right .row{
+.abt .max-width .content .right .row{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.abt .max-width .content .right .row .obj{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.about .max-width .content .right .row p{
+.abt .max-width .content .right .row .obj .bubble{
+    padding: 20px;
+    margin: 40px;
+    background: var(--white2);
+    border-radius: 50%;
+    border: 2px solid var(--purple);  
+}
+.abt .max-width .content .right .row .obj .bubble p{
+    color: var(--black);
+    font-size: 17px;
+    font-family: var(--av), sans-serif;
+    font-weight: 400;
+}
+.abt .max-width .content .right .row .obj2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.abt .max-width .content .right .row .obj2 .bubble{
     padding: 20px;
     background: var(--white2);
     border-radius: 50%;
     border: 2px solid var(--purple);  
+}
+.abt .max-width .content .right .row .obj2 .bubble p{
     color: var(--black);
     font-size: 17px;
     font-family: var(--av), sans-serif;
