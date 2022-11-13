@@ -20,6 +20,7 @@
     --dblue: #1F2833;
     --purple: #44318D;
     --black: #222629;
+    --lcolor: #E98074;
 }
 *{
     margin: 0;
@@ -181,7 +182,7 @@ nav .max-width .links .x i{
 .hero .socials li a{
     color: var(--white2);
     font-family: var(--av), sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
 }
 .hero .socials li a i{
@@ -223,7 +224,71 @@ nav .max-width .links .x i{
 
 
 
+/************************************************************************* 
+# About section 
+**************************************************************************/
+.abt{
+    height: 100vh;
+}
+.abt .max-width{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+.abt .max-width .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.abt .max-width .content .left{
+    width: 50%;
+}
+.abt .max-width .content .left h3{
+    font-size: 30px;
+    color: var(--white2);
+    font-family: var(--av), sans-serif;
+    font-weight: 500;
+    padding-bottom: 18px;
+}
+.abt .max-width .content .left h3::after{
+    content: '';
+    background: var(--lcolor);
+    width: 50%;
+    height: 1px;
+}
+.abt .max-width .content .left span{
+    color: var(--lcolor);
+    font-size: 19px;
+}
+.abt .max-width .content .left p{
+    font-size: 17px;
+    color: var(--white2);
+    font-family: var(--av), sans-serif;
+    font-weight: 400;
+    padding: 10px 26px 0 26px;
+    text-align: justify;
+}
 
+
+.abt .max-width .content .right{
+    width: 50%;
+    display: flex;
+}
+.about .max-width .content .right .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .max-width .content .right .row p{
+    padding: 20px;
+    background: var(--white2);
+    border-radius: 50%;
+    border: 2px solid var(--purple);  
+    color: var(--black);
+    font-size: 17px;
+    font-family: var(--av), sans-serif;
+    font-weight: 400;
+}
 
 
 
