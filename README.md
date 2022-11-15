@@ -1,6 +1,6 @@
 # About Project
 
-Phantom-official-portfolio is a porfolio website built with the basic front-end technologies. 
+Phantom-official-portfolio is a porfolio website developed with basic front-end technologies. 
 
 # Technologies
-Front-end: HTML, CSS, JS
+Client-Side: HTML, CSS, JS
