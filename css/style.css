@@ -23,6 +23,7 @@
     --lcolor: #E98074;
     --yel: rgb(181, 181, 6);
     --c: crimson;
+    --p: pink;
     --blu: rgb(32, 32, 163);
 }
 *{
@@ -104,7 +105,7 @@ nav .max-width .links li a{
 nav .max-width .links li a::after{
     content: "";
     display: block;
-    background: var(--white2);
+    background: var(--purple);
     width: 0;
     height: 1.5px;
     transition: all .5s;
@@ -290,6 +291,7 @@ nav .max-width .links .x i{
 .abt .max-width .content .right{
     width: 50%;
     display: flex;
+    margin-top: 5%;
 }
 .abt .max-width .content .right .row{
     display: block;
@@ -308,7 +310,7 @@ nav .max-width .links .x i{
     background: var(--white2);
     border-radius: 50%;
     border: 2px solid var(--purple);  
-    transition: all .5s;
+    transition: all .3s;
 }
 .abt .max-width .content .right .row .obj .bubble:hover{
     transform: scale(1.2);
@@ -329,12 +331,33 @@ nav .max-width .links .x i{
     background: var(--white2);
     border-radius: 50%;
     border: 2px solid var(--purple);  
+    transition: all .3s;
+}
+.abt .max-width .content .right .row .obj2 .bubble:hover{
+    transform: scale(1.2);
 }
 .abt .max-width .content .right .row .obj2 .bubble i{
-    color: var(--black);
     font-size: 35px;
-    /* font-family: var(--av), sans-serif; */
-    /* font-weight: 400; */
+}
+
+
+.abt .max-width .content .right .row .obj3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.abt .max-width .content .right .row .obj3 .bubble{
+    padding: 20px;
+    background: var(--white2);
+    border-radius: 50%;
+    border: 2px solid var(--purple);  
+    transition: all .3s;
+}
+.abt .max-width .content .right .row .obj3 .bubble:hover{
+    transform: scale(1.2);
+}
+.abt .max-width .content .right .row .obj3 .bubble i{
+    font-size: 35px;
 }
 
 
@@ -350,13 +373,15 @@ nav .max-width .links .x i{
 .abt .max-width .content .right .row .obj .bubble .fa-js{
     color: var(--yel);
 }
-.abt .max-width .content .right .row .obj2 .bubble .fa-bootstrap{
+.abt .max-width .content .right .row .obj3 .bubble .fa-bootstrap{
     color: var(--purple);
 }
-.abt .max-width .content .right .row .obj2 .bubble .fa-php{
+.abt .max-width .content .right .row .obj3 .bubble .fa-php{
     color: var(--purple);
 }
-
+.abt .max-width .content .right .row .obj2 .bubble .fa-sass{
+    color: var(--p);
+}
 
 
 
