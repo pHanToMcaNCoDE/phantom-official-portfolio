@@ -308,10 +308,14 @@ nav .max-width .links .x i{
     background: var(--white2);
     border-radius: 50%;
     border: 2px solid var(--purple);  
+    transition: all .5s;
+}
+.abt .max-width .content .right .row .obj .bubble:hover{
+    transform: scale(1.2);
 }
 .abt .max-width .content .right .row .obj .bubble i{
     color: var(--black);
-    font-size: 30px;
+    font-size: 35px;
 }
 
 
@@ -328,7 +332,7 @@ nav .max-width .links .x i{
 }
 .abt .max-width .content .right .row .obj2 .bubble i{
     color: var(--black);
-    font-size: 30px;
+    font-size: 35px;
     /* font-family: var(--av), sans-serif; */
     /* font-weight: 400; */
 }
