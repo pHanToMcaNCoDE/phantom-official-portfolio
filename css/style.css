@@ -21,6 +21,9 @@
     --purple: #44318D;
     --black: #222629;
     --lcolor: #E98074;
+    --yel: rgb(181, 181, 6);
+    --c: crimson;
+    --blu: rgb(32, 32, 163);
 }
 *{
     margin: 0;
@@ -240,22 +243,36 @@ nav .max-width .links .x i{
     justify-content: space-between;
     align-items: center;
 }
+
+
 .abt .max-width .content .left{
     width: 50%;
 }
-.abt .max-width .content .left h3{
+/* .abt .max-width .content .left .head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}  */
+.abt .max-width .content .left .head .line{
+    content: '';
+    width: 50vw;
+    height: 1px;
+    background: var(--white2);
+    transform: translate(25%, -30px);
+}
+.abt .max-width .content .left .head h3{
     font-size: 30px;
     color: var(--white2);
     font-family: var(--av), sans-serif;
     font-weight: 500;
     padding-bottom: 18px;
 }
-.abt .max-width .content .left h3::after{
+/* .abt .max-width .content .left .head h3::after{
     content: '';
     background: var(--lcolor);
     width: 50%;
     height: 1px;
-}
+} */
 .abt .max-width .content .left span{
     color: var(--lcolor);
     font-size: 19px;
@@ -292,15 +309,15 @@ nav .max-width .links .x i{
     border-radius: 50%;
     border: 2px solid var(--purple);  
 }
-.abt .max-width .content .right .row .obj .bubble p{
+.abt .max-width .content .right .row .obj .bubble i{
     color: var(--black);
-    font-size: 17px;
-    font-family: var(--av), sans-serif;
-    font-weight: 400;
+    font-size: 30px;
 }
+
+
 .abt .max-width .content .right .row .obj2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .abt .max-width .content .right .row .obj2 .bubble{
@@ -309,15 +326,32 @@ nav .max-width .links .x i{
     border-radius: 50%;
     border: 2px solid var(--purple);  
 }
-.abt .max-width .content .right .row .obj2 .bubble p{
+.abt .max-width .content .right .row .obj2 .bubble i{
     color: var(--black);
-    font-size: 17px;
-    font-family: var(--av), sans-serif;
-    font-weight: 400;
+    font-size: 30px;
+    /* font-family: var(--av), sans-serif; */
+    /* font-weight: 400; */
 }
 
 
 
+/* Icon Colors */
+
+.abt .max-width .content .right .row .obj .bubble .fa-html5{
+    color: var(--c);
+}
+.abt .max-width .content .right .row .obj .bubble .fa-css3-alt{
+    color: var(--dblue);
+}
+.abt .max-width .content .right .row .obj .bubble .fa-js{
+    color: var(--yel);
+}
+.abt .max-width .content .right .row .obj2 .bubble .fa-bootstrap{
+    color: var(--purple);
+}
+.abt .max-width .content .right .row .obj2 .bubble .fa-php{
+    color: var(--purple);
+}
 
 
 
